@@ -1,8 +1,9 @@
-# React + Vite
+# Celendar
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Creater Sina Zinsaz
+📫 LinkedIn address : https://www.linkedin.com/in/sina-zinsaz-a71061244/
+profile w3 : https://www.w3profile.com/SinaZinsaz
+stackoverflow : https://stackoverflow.com/users/20870363/sina-zinsaz
 
-Currently, two official plugins are available:
+# React + Vite + Typescript + MUI + Responsive + Lazy Load 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
