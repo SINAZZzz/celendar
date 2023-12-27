@@ -4,12 +4,21 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --port 2000",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
   "dependencies": {
+    "@date-io/jalaali": "^2.17.0",
+    "@emotion/react": "^11.11.3",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.15.2",
+    "@mui/material": "^5.15.2",
+    "@mui/styles": "^5.15.2",
+    "@mui/x-date-pickers": "^6.18.6",
+    "dayjs": "^1.11.10",
+    "jalali-moment": "^3.3.11",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
