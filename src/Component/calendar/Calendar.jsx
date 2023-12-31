@@ -1,12 +1,13 @@
 import Header from "./component/Header";
-import days from "../../Data/data";
-import Box from "@mui/material/Box";
-import Card from "@mui/material/Card";
-import CardContent from "@mui/material/CardContent";
-import CardActions from "@mui/material/CardActions";
-import Button from "@mui/material/Button";
-import Typography from "@mui/material/Typography";
-import Grid from "@mui/material/Grid";
+import { days } from "../../Data/data";
+import {
+  Card,
+  CardContent,
+  Button,
+  CardActions,
+  Typography,
+  Box,
+} from "@mui/material";
 
 export default function Calendar() {
   return (
@@ -19,16 +20,22 @@ export default function Calendar() {
           </Typography>
         ))}
       </Box>
-      {/* <Box>
-        <Card  sx={{ width: 275, background: "" }}>
-          <CardContent>dasd</CardContent>
-          <CardActions>
-            <Button variant="text" color="warning" size="small">
-              Learn more
-            </Button>
-          </CardActions>
-        </Card>
-      </Box> */}
+
+      <Box>
+        <Box
+          sx={{
+            alignItems: "center",
+            justifyContent: "center",
+            px: "3rem",
+            py: "2rem",
+            borderRadius: "5px",
+            width: "fit-content",
+            background: "rgba(0 , 0 ,0 , 0.20)",
+          }}
+        >
+          <Typography variant="body1">1</Typography>
+        </Box>
+      </Box>
     </Box>
   );
 }
