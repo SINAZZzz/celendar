@@ -1,18 +1,22 @@
 // DarkModeContext.js
-import React, { createContext, useContext, useState } from "react";
+import { ThemeProvider } from "@mui/material/styles";
+import { darkTheme, lightTheme } from "../theme/theme";
+import { createContext, useContext, useState } from "react";
 
 const DarkModeContext = createContext();
 
 export const DarkModeProvider = ({ children }) => {
-  const [darkMode, setDarkMode] = useState(true);
+  const [darkMode, setDarkMode] = useState(false);
 
   const toggleDarkMode = () => {
     setDarkMode((prevMode) => !prevMode);
   };
 
+  const theme = darkMode ? darkTheme : lightTheme;
+
   return (
     <DarkModeContext.Provider value={{ darkMode, toggleDarkMode }}>
-      {children}
+      <ThemeProvider theme={theme}>{children}</ThemeProvider>
     </DarkModeContext.Provider>
   );
 };

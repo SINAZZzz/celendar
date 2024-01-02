@@ -1,0 +1,9 @@
+@font-face {
+  font-family: "YekanBakh";
+  src: url("./assets/Vazir-Light-FD-WOL.woff") format("woff");
+  src: url("./assets/Vazir-Light-FD-WOL.woff2") format("woff2");
+}
+
+body{
+  font-family: "YekanBakh";
+} 
