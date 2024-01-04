@@ -19,7 +19,7 @@ export default function Header() {
     <Box>
       <CssBaseline />
 
-      <Grid container spacing={2} p="1rem">
+      <Grid container spacing={2}>
         <Grid item xs={6}>
           <Box display="flex" alignItems="center" pt="0.5rem">
             <ArrowBackIosNewIcon fontSize="5px" sx={{ cursor: "pointer" }} />
