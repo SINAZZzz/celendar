@@ -8,8 +8,6 @@ export const days = [
   "جمعه",
 ];
 
-// var numbers = [];
-
 export const number = [];
 
 for (var i = 1; i <= 30; i++) {
