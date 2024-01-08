@@ -2,7 +2,7 @@
 
 # React + Vite + Typescript + MUI + Responsive + Lazy Load 
 
-# Creater Sina Zinsaz
+# Creator Sina Zinsaz
 
 📫 LinkedIn address : https://www.linkedin.com/in/sina-zinsaz-a71061244/
 
