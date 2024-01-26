@@ -1,4 +1,4 @@
-import Calendar from "./Component/calendar/Calendar";
+import Calendar from "./page/Calendar.jsx";
 import { DarkModeProvider } from "./context/DarkModeContext.jsx";
 
 function App() {

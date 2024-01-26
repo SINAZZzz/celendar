@@ -1,7 +1,7 @@
-import Header from "./component/Header";
-import { days, number } from "../../Data/data";
+import Header from "../components/calendar/components/Header";
+import { days, number } from "../Data/data";
 import { Box, Grid, Container, Typography } from "@mui/material";
-import useWindowSize from "../../Util/Utility";
+import useWindowSize from "../Util/Utility";
 
 export default function Calendar() {
   const { width } = useWindowSize();
